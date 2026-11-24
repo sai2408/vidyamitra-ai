@@ -1,0 +1,14 @@
+fastapi>=0.110,<0.116
+uvicorn>=0.29,<0.33
+SQLAlchemy>=2.0.30,<2.1
+scikit-learn>=1.3,<1.7
+pypdf>=4.2,<6
+PyJWT>=2.8,<3
+bcrypt>=4.1,<5
+python-multipart>=0.0.9
+python-dotenv>=1.0,<2
+email-validator>=2.1,<3
+
+# Optional: only if you switch DATABASE_URL to MySQL or PostgreSQL
+# PyMySQL>=1.1
+# psycopg2-binary>=2.9
